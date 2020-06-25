@@ -1,0 +1,33 @@
+.conversor{
+    padding: 20px;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#btConverter {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+#btConverter:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+input, textarea, select {
+    outline: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
